@@ -1,0 +1,4 @@
+model,correct,total,strict_accuracy,missing_final_output,answer_tag_outputs,notes
+Base,28,98,28.57%,38,21,Qwen2.5-1.5B-Instruct baseline
+SFT,58,98,59.18%,2,88,5k math tool-trajectory LoRA
+GRPO Pilot,59,98,60.20%,0,93,128 samples and 32 steps; strict-format difference only after manual audit

@@ -1,0 +1,52 @@
+# Python and editor state
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+
+# Local environments and package caches
+.venv/
+venv/
+env/
+.conda/
+.cache/
+hf_cache/
+
+# Training, inference, and evaluation artifacts
+outputs/
+artifacts/
+checkpoints/
+runs/
+logs/
+wandb/
+ray_results/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+
+# Large or locally prepared datasets
+data-toolstar/
+Tool_Star_RL/mix_grpo/
+Tool_Star_RL/**/mix_grpo/
+LLaMA-Factory-main/data/final_sft_edition9.json
+LLaMA-Factory-main/data/toolstar-sft.json
+LLaMA-Factory-main/data/toolstar-math-sft.json
+LLaMA-Factory-main/data/toolstar-math-eval.json
+search_cache_1k.json
+*.parquet
+
+# Machine-specific settings and temporary exports
+.env
+.env.*
+*.log
+*.tmp
+*.bak
+*.pdf
